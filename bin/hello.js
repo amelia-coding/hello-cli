@@ -20,9 +20,7 @@ const hander = {
           shell.echo("Sorry, this script requires git");
           shell.exit(1);
         } else {
-          shell.exec(
-            "git clone git@git.dev.sh.ctripcorp.com:cc-frontend/zoom-miniapp.git"
-          );
+          shell.exec("git clone git@xxx.git");
           spinner.stop();
         }
       });
